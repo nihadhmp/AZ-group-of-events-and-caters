@@ -73,14 +73,14 @@ function Footer() {
         ©️ Copyright Az group 2024. All Rights Reserved.
       </div>
       <div className="w-[448px] left-[495px] top-[104px] absolute justify-start items-center gap-10 inline-flex">
-        <button className=" px-6 py-2 bg-[#0188fb] rounded-full justify-center items-center gap-2.5 flex">
+        <button className=" px-6 py-2 bg-[#0188fb] border border-[#0188fb] hover:bg-[#2D2E30] hover:text-[#0188fb] rounded-full justify-center items-center gap-2.5 flex">
           <MdLocalPhone className="text-white text-2xl" />
 
           <div className="text-white text-xl font-medium font-sans">
             Call Az group
           </div>
         </button>
-        <button className="px-6 py-2 bg-[#25d366] rounded-full justify-center items-center gap-2.5 flex">
+        <button className="px-6 py-2 bg-[#25d366] border border-[#25d366] hover:bg-[#2D2E30] hover:text-[#25d366] rounded-full justify-center items-center gap-2.5 flex">
           <FaWhatsapp className="text-white text-xl " />
 
           <div className="text-white text-xl font-medium font-sans">
