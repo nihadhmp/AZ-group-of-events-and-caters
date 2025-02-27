@@ -1,18 +1,19 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import galleryHero from "../assets/Gallery/galleryHero.png";
-import galleryOne from "../assets/Gallery/galleryOne.png";
-import galleryTwo from "../assets/Gallery/galleryTwo.png";
-import galleryThree from "../assets/Gallery/galleryThree.png";
-import galleryFour from "../assets/Gallery/galleryFour.png";
-import galleryFive from "../assets/Gallery/galleryFive.png";
-import gallerySix from "../assets/Gallery/gallerySix.png";
-import gallerySeven from "../assets/Gallery/gallerySeven.png";
-import galleryEight from "../assets/Gallery/galleryEight.png";
-import galleryNine from "../assets/Gallery/galleryNine.png";
-import galleryTen from "../assets/Gallery/galleryTen.png";
-import gallery1 from "../assets/Gallery/gallery1.png";
+// import galleryOne from "../assets/Gallery/galleryOne.png";
+// import galleryTwo from "../assets/Gallery/galleryTwo.png";
+// import galleryThree from "../assets/Gallery/galleryThree.png";
+// import galleryFour from "../assets/Gallery/galleryFour.png";
+// import galleryFive from "../assets/Gallery/galleryFive.png";
+// import gallerySix from "../assets/Gallery/gallerySix.png";
+// import gallerySeven from "../assets/Gallery/gallerySeven.png";
+// import galleryEight from "../assets/Gallery/galleryEight.png";
+// import galleryNine from "../assets/Gallery/galleryNine.png";
+// import galleryTen from "../assets/Gallery/galleryTen.png";
+// import gallery1 from "../assets/Gallery/gallery1.png";
 import GallleryBg from "../assets/background/GallleryBg.png";
+import GalleryGroup from "../assets/Gallery/GalleryGroup.png";
 
 function Gallery() {
   return (
@@ -35,8 +36,8 @@ function Gallery() {
             </p>
           </div>
         </section>
-        <section className="my-12 mx-20 grid grid-cols-4">
-          <img src={gallery1} />
+        <section className="mt-5 pb-40">
+          {/* <img src={gallery1} />
           <img src={galleryOne} />
           <img src={galleryTwo} />
           <img src={galleryThree} />
@@ -46,7 +47,8 @@ function Gallery() {
           <img src={gallerySeven} />
           <img src={galleryEight} />
           <img src={galleryNine} />
-          <img src={galleryTen} />
+          <img src={galleryTen} /> */}
+          <img src={GalleryGroup} />
         </section>
       </div>
       <Footer />
