@@ -26,7 +26,6 @@ function Home() {
         className=" bg-cover bg-center "
         style={{ backgroundImage: `url(${HomeBg})` }}
       >
-        {" "}
         <section className=" flex flex-row">
           <div className="items-center ">
             <h2 className="text-white text-7xl font-trap"></h2>
